@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 import DuckDB
 import RealmSwift
+import TabularData
 
 
 struct ContentView: View {
@@ -21,22 +22,28 @@ struct ContentView: View {
     
     private enum ViewState {
         case loading(Error?)
-        case ready(TPCHData)
+        case ready_for_data_conversion(TPCHData)
+        case data_queried(DataFrame)
     }
     
     @State private var state = ViewState.loading(nil)
     
+
     var body: some View {
          Group {
            switch state {
-           case .ready(let tpch_data):
-              Text("Data Ready")
-            
-               // execute some simple query in duckdb and get the timing.
+           case .ready_for_data_conversion(_):
+                Text("Data has been loaded")
+                // execute some simple query in duckdb and get the timing.
            case .loading(nil):
-             ProgressView { Text("Loading Exoplanets") }
+               ProgressView { Text("Loading Exoplanets") }
            case .loading(let error?):
-             Text("Error getting data")
+               Text("Error getting data")
+               Text("\(error.localizedDescription)")
+           case .data_queried(_):
+               Text("SUCK MY ASSHOLE")
+           default:
+               Text("I don't know")
            }
          }
          .task {
@@ -48,12 +55,25 @@ struct ContentView: View {
         guard case .loading(_) = state else { return }
         self.state = .loading(nil)
         do {
-          self.state = .ready(try await TPCHData.create())
+            let tpch_data = try await TPCHData.create()
+            self.state = .ready_for_data_conversion(tpch_data)
+            self.state = try await .data_queried(tpch_data.GetLineItem())
         }
         catch {
           self.state = .loading(error)
         }
     }
+    
+    private func ConvertData(tpch_data : TPCHData) {
+        guard case .loading(_) = state else { return }
+        self.state = .loading(nil)
+        Task {
+            let lineitem_data = try await tpch_data.GetLineItem();
+            self.state = .data_queried(lineitem_data)
+        }
+
+    }
+    
 }
 
 private let itemFormatter: DateFormatter = {

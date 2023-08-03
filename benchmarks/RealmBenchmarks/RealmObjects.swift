@@ -143,11 +143,12 @@ func createSupplier() -> Supplier {
     return supplier
 }
 
-func getAlice() -> Supplier {
-    let realm = try! Realm()
-    
-    let suppliersWithAlice = realm.objects(Supplier.self).filter("name = %@", "Alice")
-}
+//func getAlice() -> Supplier {
+//    let realm = try! Realm()
+//
+//    let suppliersWithAlice = realm.objects(Supplier.self).filter("name = %@", "Alice")
+//    return
+//}
 
 //class RealmDatabaseManager {
 //    let realm = try! Realm()
