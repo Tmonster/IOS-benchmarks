@@ -18,13 +18,45 @@
             endingLineNumber = "26"
             landmarkName = "preview"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "31F01241-3BF4-43B5-8787-827F54FD2BE7 - 955951796f03ccf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; benchmarks.PersistenceController in variable initialization expression of static benchmarks.PersistenceController.preview : benchmarks.PersistenceController"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "31F01241-3BF4-43B5-8787-827F54FD2BE7 - 955951796f03ccf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; benchmarks.PersistenceController in variable initialization expression of static benchmarks.PersistenceController.preview : benchmarks.PersistenceController"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C87E39B0-A6DD-446D-B9F4-97E980C554B9"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "benchmarks/TPCHData/TPCHData.swift"
@@ -65,53 +97,20 @@
                   endingLineNumber = "22"
                   offsetFromSymbolStart = "292">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "53F3B20A-048D-461A-9CA9-7C38287F5285"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "benchmarks/TPCHData/TPCHData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "GetLineItem()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "53F3B20A-048D-461A-9CA9-7C38287F5285 - 873063f7f9720251"
+                  uuid = "C87E39B0-A6DD-446D-B9F4-97E980C554B9 - 70dd778883d4588a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
+                  symbolName = "(1) suspend resume partial function for static benchmarks.TPCHData.create() async throws -&gt; benchmarks.TPCHData"
                   moduleName = "benchmarks"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomebergen/benchmarks/benchmarks/TPCHData/TPCHData.swift"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "2256">
-               </Location>
-               <Location
-                  uuid = "53F3B20A-048D-461A-9CA9-7C38287F5285 - 873063f7f97206b5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
-                  moduleName = "benchmarks"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomebergen/benchmarks/benchmarks/TPCHData/TPCHData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "3732">
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "292">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -120,7 +119,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "41C8A300-092D-408C-A90A-9D7DAD6641E9"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "benchmarks/TPCHData/TPCHData.swift"
@@ -130,52 +129,51 @@
             endingLineNumber = "56"
             landmarkName = "GetLineItem()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C1EC406F-1750-4645-8E7F-84543AFB0B98"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "benchmarks/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "body"
-            landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "C1EC406F-1750-4645-8E7F-84543AFB0B98 - e30fa0df2616f2f7"
+                  uuid = "41C8A300-092D-408C-A90A-9D7DAD6641E9 - 90e2850e02203032"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.Text&gt;&gt;, SwiftUI.Text&gt; in benchmarks.ContentView.body.getter : some"
+                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
                   moduleName = "benchmarks"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomebergen/benchmarks/benchmarks/ContentView.swift"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "1524">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "240">
                </Location>
                <Location
-                  uuid = "C1EC406F-1750-4645-8E7F-84543AFB0B98 - e30fa0df2616f2f7"
+                  uuid = "41C8A300-092D-408C-A90A-9D7DAD6641E9 - 90e2850e02203032"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.Text&gt;&gt;, SwiftUI.Text&gt; in benchmarks.ContentView.body.getter : some"
+                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
                   moduleName = "benchmarks"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomebergen/benchmarks/benchmarks/ContentView.swift"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "3312">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "41C8A300-092D-408C-A90A-9D7DAD6641E9 - 6bd7ba0fc6329aec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; DuckDB.ResultSet"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "68">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -183,24 +181,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E4A04E8A-9652-4CD8-BD19-A152F87AD21F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "benchmarks/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E01DD7E0-2999-449D-84B0-2C5B291C8803"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "benchmarks/benchmarksApp.swift"
@@ -210,6 +192,550 @@
             endingLineNumber = "13"
             landmarkName = "benchmarksApp"
             landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0A11495-3789-4C28-97AB-65118E44D817"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/TPCHData/TPCHData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "GetLineItem()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0A11495-3789-4C28-97AB-65118E44D817 - 90e2850e022034f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "2280">
+               </Location>
+               <Location
+                  uuid = "C0A11495-3789-4C28-97AB-65118E44D817 - 90e2850e022038fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for benchmarks.TPCHData.GetLineItem() async throws -&gt; TabularData.DataFrame"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/TPCHData/TPCHData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "2320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "151C9BB5-E658-46B6-BDF6-20A646457812"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "ConvertData()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - 4b9a22f4b607e8c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - fafd5fbf8fbc3365"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - 3b0cdb3dc24a6084"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - 3b0cdb3dc24a60c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - e8fed34709991888"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - e8fed347099918ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "151C9BB5-E658-46B6-BDF6-20A646457812 - 4b9a22f4b607e8c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in benchmarks.ContentView.ConvertData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/RealmBenchmarks/RealmObjects.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "Load(tpch_data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - e48c3965f720fefb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) async throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 5002aa02ac5aaaf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) async throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 216af7605907bafd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) async throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 83e5cc6e94ead8fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) async throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 39bda3e913bb8027"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 39bda3e913bb8027"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 39bda3e913bb8027"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "AA0780ED-56F6-43FE-AF3C-06ED48BF86F2 - 39bda3e913bb81c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C83395F-E8E8-492E-9205-93DC72FD8548"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C83395F-E8E8-492E-9205-93DC72FD8548 - 2920787c43729d2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in benchmarks.ContentView.loadData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "8C83395F-E8E8-492E-9205-93DC72FD8548 - 6598c4bf83145143"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in benchmarks.ContentView.loadData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "8C83395F-E8E8-492E-9205-93DC72FD8548 - fe00c212241bd929"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in benchmarks.ContentView.loadData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "8C83395F-E8E8-492E-9205-93DC72FD8548 - 67f08138fb7476d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in benchmarks.ContentView.loadData() -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65EEA8CD-7DBE-4B0A-B1AE-30D2375496C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "ConvertData()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/RealmBenchmarks/RealmObjects.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "Load(tpch_data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B - 216af7605907bb79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) async throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B - 39bda3e913bb81a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B - 39bda3e913bb81a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B - 39bda3e913bb8182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "0217F75B-8318-4CE9-8EEB-8E47F0F6236B - 39bda3e913bb81c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static benchmarks.RealmObjects.Load(tpch_data: DuckDB.ResultSet) throws -&gt; ()"
+                  moduleName = "benchmarks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomebergen/IOS-benchmarks/benchmarks/RealmBenchmarks/RealmObjects.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "890CA6E6-3E56-49CF-965A-64B71B024898"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/RealmBenchmarks/RealmObjects.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "Query()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEB47FB0-B387-4B13-B0BF-406C65B2DFC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/RealmBenchmarks/RealmObjects.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "Load(tpch_data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79CD1D6D-D1F1-4E57-AC99-A8ECB36179FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "benchmarks/RealmBenchmarks/RealmObjects.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "Load(tpch_data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
