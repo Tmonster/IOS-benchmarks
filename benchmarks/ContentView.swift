@@ -41,7 +41,7 @@ struct ContentView: View {
                Text("Error getting data")
                Text("\(error.localizedDescription)")
            case .data_queried(_):
-               Text("SUCK MY ASSHOLE")
+               Text("works maybe?")
            default:
                Text("I don't know")
            }
