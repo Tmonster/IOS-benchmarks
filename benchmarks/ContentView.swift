@@ -34,12 +34,11 @@ struct ContentView: View {
     
     @State private var state = ViewState.ready_to_load
     @State private var tpch_data : TPCHData?
-    
-//    private init() {
-//        self.tpch_data
-//        
-//    }
-    
+    @State private var duckdb_instance : DuckDBBenchmarks?
+    @State private var realm_load_time : String = "no realm load time available"
+    @State private var duckdb_load_time : String = "no duckdb load time available"
+    @State private var realm_query_time : String = "no realm query time available"
+    @State private var duckdb_query_time : String = "no duckdb query time available"
 
     var body: some View {
         Group {
@@ -62,25 +61,35 @@ struct ContentView: View {
                 Text("data is converted")
             }
         }
+        Text(self.realm_load_time).padding()
+        Text(self.duckdb_load_time).padding()
         VStack {
             Button("Load Data") {
                 loadData()
             }
             .padding()
             
-            Button("Query Data") {
-                QueryData()
+            Button("Load Data into Realm DB") {
+                LoadDataInRealm()
             }
             .padding()
             
-            Button("Convert Data") {
-                ConvertData()
+            Button("Load Data into DuckDB") {
+                LoadDataInDuckDB()
             }
+            .padding()
             
             Button("Query Realm Data") {
-                QueryRealmData()
+                QueryDataRealm()
             }
             .padding()
+            
+            Text(self.realm_query_time).padding()
+            
+            Button("Query Duckdb Data") {
+                QueryDataDuckDB()
+            }.padding()
+            Text(self.duckdb_query_time).padding()
         }
     }
     
@@ -98,35 +107,79 @@ struct ContentView: View {
         }
     }
     
-    private func QueryRealmData() {
-        Task {
-            try RealmObjects.Query()
-        }
-    }
-    
-    private func ConvertData() {
+    private func LoadDataInRealm() {
         self.state = .converting_data
         Task {
             if let tpch_data {
                 let results = try await tpch_data.GetLineItem()
+                let startTime = CFAbsoluteTimeGetCurrent()
                 try RealmObjects.Load(tpch_data : results)
+                let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+                self.realm_load_time = "Realm load tpch sf=0.001 = \(timeElapsed)"
+                self.state = .data_is_converted
             }
         }
-        self.state = .data_is_converted
     }
     
-    private func QueryData() {
-        guard case .data_is_loaded = state else { return }
-        self.state = .querying_data
+    private func LoadDataInDuckDB() {
+        self.state = .converting_data
         Task {
             if let tpch_data {
                 let results = try await tpch_data.GetLineItem()
+                self.duckdb_instance = try await DuckDBBenchmarks.create()
+                if let duckdb_instance = self.duckdb_instance {
+                    let startTime = CFAbsoluteTimeGetCurrent()
+                    try duckdb_instance.Load(tpch_data : results)
+                    let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+                    self.duckdb_load_time = "DuckdbLoad using appender sf=0.001 = \(timeElapsed)"
+                    self.state = .data_is_converted
+                } else {
+                    print("error with creating duckdb instance")
+                }
+            }
+        }
+        
+    }
+    
+    private func QueryDataRealm() {
+        self.state = .querying_data
+        Task {
+            if let tpch_data {
+                let startTime = CFAbsoluteTimeGetCurrent()
+                try RealmObjects.GetLineItem()
+                let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+                self.realm_query_time = "Realm Get lineitem time = \(timeElapsed)"
                 self.state = .data_is_queried
             } else {
                 self.state = .loading_error
             }
         }
-
+    }
+    
+    private func QueryDataDuckDB() {
+        self.state = .querying_data
+        Task {
+            if let duckdb_instance = self.duckdb_instance {
+                let startTime = CFAbsoluteTimeGetCurrent()
+                let results = try duckdb_instance.GetLineItem()
+                let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+                self.duckdb_query_time = "DuckDB Get lineitem time = \(timeElapsed)"
+                let l_orderkey = results[0].cast(to: Int.self)
+                let l_partkey = results[1].cast(to: Int.self)
+                let l_suppkey = results[2].cast(to: Int.self)
+                let l_linenumber = results[3].cast(to: Int.self)
+                let l_returnflag = results[4].cast(to: String.self)
+                let l_linestatus = results[5].cast(to: String.self)
+                let l_shipinstruct = results[6].cast(to: String.self)
+                let l_shipmode = results[7].cast(to: String.self)
+                let l_shipcomment = results[8].cast(to: String.self)
+                print("there are \(results.rowCount) results")
+                print(l_orderkey)
+                self.state = .data_is_queried
+            } else {
+                self.state = .loading_error
+            }
+        }
     }
     
 }

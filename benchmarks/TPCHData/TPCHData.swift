@@ -18,16 +18,14 @@ final class TPCHData  {
         // Create our database and connection as described above
         let database = try Database(store: .inMemory)
         let connection = try database.connect()
-        
-        print("here dood")
 
         do {
             // create the tpch data
-//            try connection.execute("install tpch;")
-//            let result = try connection.execute("load tpch;")
             try connection.execute("import database '/Users/tomebergen/IOS-benchmarks/tpch';")
+            print("loaded database")
         } catch {
-            print("some error here, uh-oh")
+            print("Error importing TPCH data: \(error)")
+            throw error
         }
 
         // Create our pre-populated ExoplanetStore instance
@@ -56,6 +54,10 @@ extension TPCHData {
         let result = try connection.query("""
           Select * from lineitem;
           """)
+        return result;
+    }
+}
+
 
         // Cast our DuckDB columns to their native Swift
         // equivalent types
@@ -76,7 +78,7 @@ extension TPCHData {
 //        let l_shipmode = result[14].cast(to: String.self)
 //        let l_shipcomment = result[15].cast(to: String.self)
         
-        return result;
+        
 
         // Use our DuckDB columns to instantiate TabularData
         // columns and populate a TabularData DataFrame
@@ -109,5 +111,3 @@ extension TPCHData {
 //              .eraseToAnyColumn(),
 //          ])
 //        return rezzy;
-    }
-}

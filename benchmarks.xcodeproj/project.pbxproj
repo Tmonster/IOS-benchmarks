@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29117D772A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29117D762A80E9330053CAF4 /* DuckDBBenchmarks.swift */; };
+		29117D782A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29117D762A80E9330053CAF4 /* DuckDBBenchmarks.swift */; };
+		29117D792A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29117D762A80E9330053CAF4 /* DuckDBBenchmarks.swift */; };
 		2937DD9F2A7BAD320095988F /* DuckDB in Frameworks */ = {isa = PBXBuildFile; productRef = 2937DD9E2A7BAD320095988F /* DuckDB */; };
 		2937DDA12A7BD51F0095988F /* DuckDBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2937DDA02A7BD51F0095988F /* DuckDBView.swift */; };
 		2937DDA22A7BD51F0095988F /* DuckDBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2937DDA02A7BD51F0095988F /* DuckDBView.swift */; };
@@ -50,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29117D762A80E9330053CAF4 /* DuckDBBenchmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDBBenchmarks.swift; sourceTree = "<group>"; };
 		2937DDA02A7BD51F0095988F /* DuckDBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDBView.swift; sourceTree = "<group>"; };
 		2937DDA42A7BD6910095988F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2937DDAF2A7BE1680095988F /* TPCHData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPCHData.swift; sourceTree = "<group>"; };
@@ -96,6 +100,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29117D752A80E9030053CAF4 /* DuckDBBenchmarks */ = {
+			isa = PBXGroup;
+			children = (
+				29117D762A80E9330053CAF4 /* DuckDBBenchmarks.swift */,
+			);
+			path = DuckDBBenchmarks;
+			sourceTree = "<group>";
+		};
+		29117D7A2A80EF7D0053CAF4 /* SwiftDataBenchmarks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftDataBenchmarks;
+			sourceTree = "<group>";
+		};
 		2937DDAD2A7BE1370095988F /* TPCHData */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +154,8 @@
 		298CD4C02A7BA8EC000E5DD0 /* benchmarks */ = {
 			isa = PBXGroup;
 			children = (
+				29117D7A2A80EF7D0053CAF4 /* SwiftDataBenchmarks */,
+				29117D752A80E9030053CAF4 /* DuckDBBenchmarks */,
 				2937DDAE2A7BE1480095988F /* RealmBenchmarks */,
 				2937DDAD2A7BE1370095988F /* TPCHData */,
 				298CD4C12A7BA8EC000E5DD0 /* benchmarksApp.swift */,
@@ -317,6 +338,7 @@
 				298CD4C22A7BA8EC000E5DD0 /* benchmarksApp.swift in Sources */,
 				2937DDB42A7BE6B70095988F /* RealmObjects.swift in Sources */,
 				2937DDA52A7BD6910095988F /* ContentView.swift in Sources */,
+				29117D772A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */,
 				298CD4C42A7BA8EC000E5DD0 /* Persistence.swift in Sources */,
 				2937DDA12A7BD51F0095988F /* DuckDBView.swift in Sources */,
 				298CD4C72A7BA8EC000E5DD0 /* benchmarks.xcdatamodeld in Sources */,
@@ -329,6 +351,7 @@
 			files = (
 				2937DDB12A7BE1680095988F /* TPCHData.swift in Sources */,
 				298CD4D92A7BA8ED000E5DD0 /* benchmarksTests.swift in Sources */,
+				29117D782A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */,
 				2937DDA22A7BD51F0095988F /* DuckDBView.swift in Sources */,
 				2937DDA62A7BD6910095988F /* ContentView.swift in Sources */,
 				2937DDB52A7BE6B70095988F /* RealmObjects.swift in Sources */,
@@ -343,6 +366,7 @@
 				2937DDA32A7BD51F0095988F /* DuckDBView.swift in Sources */,
 				298CD4E52A7BA8ED000E5DD0 /* benchmarksUITestsLaunchTests.swift in Sources */,
 				2937DDA72A7BD6910095988F /* ContentView.swift in Sources */,
+				29117D792A80E9330053CAF4 /* DuckDBBenchmarks.swift in Sources */,
 				298CD4E32A7BA8ED000E5DD0 /* benchmarksUITests.swift in Sources */,
 				2937DDB22A7BE1680095988F /* TPCHData.swift in Sources */,
 			);
@@ -460,6 +484,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -472,6 +497,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -486,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"benchmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = AU56JFNS66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -522,6 +549,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"benchmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = AU56JFNS66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
